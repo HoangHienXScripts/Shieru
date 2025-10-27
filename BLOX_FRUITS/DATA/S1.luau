@@ -264,7 +264,7 @@ return {
             Vector3.new(5618.17, 152.34, 3992.17)
         },
         ["NPC_Count"] = "Galley Pirate"
-    },
+    }, -- Unfinished: còn thiếu "650" tại lười :) --
     ["700"] = {
         ["QuestName"] = "Area1Quest",
         ["QuestNumber"] = 1,
@@ -277,5 +277,14 @@ return {
             Vector3.new(-41.46, 47.99, 2125.1)
         },
         ["NPC_Count"] = "Raider"
+    },
+    ["9999"] = {
+        ["QuestName"] = "EndGame",
+        ["QuestNumber"] = 1,
+        ["QuestNPC"] = {0, 0, 0},
+        ["QuestWaitingSpots"] = {
+            Vector3.new(0, 0, 0)
+        },
+        ["NPC_Count"] = "SCRIPT BY HOANGHIEN"
     }
 }
