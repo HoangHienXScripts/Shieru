@@ -12,6 +12,8 @@ return {
         rpls = "return game:GetService(\"ReplicatedStorage\")"
     },
     customfunctions = {
-        reverse_boolean = "return function(t) return not t end"
+        reverse_boolean = "return function(t) return not t end",
+        mb1c = "return function(t, s) t.MouseButton1Click:Connect(s) end",
+        uic = "return function(t, r) local new_uic = Instance.new(\"UICorner\", t) new_uic.CornerRadius = UDim.new(r, 0) end"
     }
 }
